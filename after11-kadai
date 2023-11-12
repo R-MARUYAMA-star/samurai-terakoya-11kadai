@@ -1,0 +1,12 @@
+user_names = ["水", "金", "地", "火", "木", "土", "天", "海", "冥"]
+
+for user_name in user_names:
+    print(user_name)
+
+i=0
+while(True):
+  user_name = user_names[i]
+  print(user_name)
+  i=i+1
+  if i ==9:
+     break
